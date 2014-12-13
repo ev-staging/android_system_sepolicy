@@ -139,6 +139,7 @@
     runas_app
     art_apex_dir
     runtime_service
+    sdcard_posix
     secure_element
     secure_element_device
     secure_element_tmpfs

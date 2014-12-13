@@ -75,6 +75,7 @@
     proc_dt_firmware_android
     proc_last_kmsg
     property_info
+    sdcard_posix
     secure_element
     secure_element_device
     secure_element_service

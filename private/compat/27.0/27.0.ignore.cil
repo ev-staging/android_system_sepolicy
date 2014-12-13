@@ -127,6 +127,7 @@
     role_service
     runas_app
     runtime_service
+    sdcard_posix
     secure_element
     secure_element_device
     secure_element_service

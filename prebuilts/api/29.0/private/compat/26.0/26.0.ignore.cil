@@ -157,6 +157,7 @@
     statsdw_socket
     statscompanion_service
     storaged_data_file
+    sysfs_disk_stat
     super_block_device
     sysfs_fs_ext4_features
     system_boot_reason_prop

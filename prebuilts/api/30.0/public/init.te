@@ -403,6 +403,10 @@ allow init {
   sysfs_zram
 }:file rw_file_perms;
 
+allow init {
+  sysfs_leds
+}:lnk_file read;
+
 # allow init to create loop devices with /dev/loop-control
 allow init loop_control_device:chr_file rw_file_perms;
 allow init loop_device:blk_file rw_file_perms;

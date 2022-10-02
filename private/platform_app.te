@@ -116,6 +116,9 @@ perfetto_producer(platform_app)
 # Allow platform apps to create VMs
 virtualizationservice_use(platform_app)
 
+# Allow platform app to interact with Powerstats HAL
+hal_client_domain(platform_app, hal_power_stats)
+
 ###
 ### Neverallow rules
 ###
